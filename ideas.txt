@@ -1,0 +1,44 @@
+ART GALLERY (MAIN FOCUS)
+- An online marketplace for artists
+
+
+
+DESIGN
+Font:
+1) rubik moonrocks
+2) splash
+3) rubik glitch
+
+* Orbitron
+
+
+* must include CRUD
+create = create new art post
+read = to read resources in a REST environment using the GET method
+update = update artpiece for sale
+delete = delete the post
+
+
+
+Colours
+
+Black
+Ultraviolet (pink and purple)
+
+#CA00FF (pink)
+
+#8500FF (purple)
+
+Font = Caviar Dreams
+
+http://www.nymfont.com/2009/06/new-caviar-dreams-font.html
+
+https://www.dafont.com/caviar-dreams.font
+
+
+
+STEPS
+1) Wireframe - done
+2) Logo - done
+3) start app in react with styled components
+( npm i styled-components) = frontend
