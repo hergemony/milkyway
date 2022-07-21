@@ -1,0 +1,7 @@
+  <ThemeProvider>
+  <>
+  <Header/>
+  <Container>
+    <h1>One billion stars</h1>
+  </Container>
+  </>

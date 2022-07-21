@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+## THE MILKY WAY ##
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-## Available Scripts
+# Table of Contents
+* [Description](##Description)
+* [Tech Stack](#TechStack)
+* [Installation](##Installation)
+* [Usage](##Usage)
+* [Deployed Link](##DeployedLink)
+* [Screenshot](#Screenshot)
+* [Credits](#Credits)
+* [Questions](#Questions)
+* [Copyright](#Copyright)
 
-In the project directory, you can run:
 
-### `npm start`
+# Description
+The MERN Stack is used by many developers. The acronym stands for:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Mongo DB: A document-based open-source database, that provides you scalability and flexibility.
+Express JS: A structured base designed to develop web applications and APIs.
+React JS: A Javascript Front-end library for building user interfaces. Maintained by Facebook.
+Node JS: A javascript runtime built on Chrome’s V8 JS engine. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Tech Stack #
+- HTML
+- CSS
+- Javascript
+- MERN Stack (MongoDB, Express, REACT, Node)
+- REACT
+- Graph QL
 
-### `npm test`
+# Special Features #
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Installation
+Git clone the repository into your terminal. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshot
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![alt text](https://github.com/hergemony/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![alt text](https://github.com/hergemony/?raw=true)
 
-### `npm run eject`
+## Video
+[![CLICK TO VIEW WALKTHROUGH VIDEO](https://img.youtube.com/)](https://youtu.be/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Credits
+https://en.wikipedia.org/wiki/Wheatbelt_(Western_Australia)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://stackoverflow.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+https://w3schools.com
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+https://www.nathan-lam.com/blog/embed-video-in-github-readme.html
 
-## Learn More
+https://altcampus.school/posts/10-full-stack-beginner-project-ideas-for-learning-MERN-stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://medium.com/bb-tutorials-and-thoughts/how-to-develop-and-build-mern-stack-9a7a1099624
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://github.com/emmannweb/eshopappltd
 
-### Code Splitting
+https://stackoverflow.com/questions/58627992/how-to-build-a-dynamic-single-page-web-app-using-mern-stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+https://medium.com/swlh/how-to-create-your-first-mern-mongodb-express-js-react-js-and-node-js-stack-7e8b20463e66
 
-### Analyzing the Bundle Size
+Styled Components How To:
+https://www.youtube.com/watch?v=02zO0hZmwnw
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Creating Wireframes:
+https://www.springboard.com/blog/design/how-to-create-a-wireframe/
 
-### Making a Progressive Web App
+https://elementor.com/blog/wireframe-website/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+http://www.nymfont.com/2009/06/new-caviar-dreams-font.html
 
-### Deployment
+https://www.dafont.com/caviar-dreams.font
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+https://github.com/bradtraversy/huddle_styled_components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+## Questions
+Any questions, please email hergemony@gmail.com
+
+
+## Copyright
+©️ 2022 Hergemony™️ Digital. All rights reserved.
+
+**[🔙 back to top](#description)**
