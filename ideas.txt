@@ -41,4 +41,7 @@ STEPS
 1) Wireframe - done
 2) Logo - done
 3) start app in react with styled components
-( npm i styled-components) = frontend
+( npm i styled-components) = frontend - done
+4) background color black - done
+5) font ?
+6) stripe payment using cors

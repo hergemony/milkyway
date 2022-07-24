@@ -85,6 +85,10 @@ How to add Stripe payment:
 
 https://thushaltk.medium.com/how-to-add-stripe-payment-gateway-to-your-mern-project-82f34691dc57
 
+How to add JWT Auth:
+https://youtu.be/enopDSs3DRw
+
+
 
 
 
