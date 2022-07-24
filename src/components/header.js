@@ -8,7 +8,8 @@ export default function Header() {
     <StyledHeader>
       <Container>
         <Nav>
-          <Logo src='./images/logo.PNG' alt='' />
+          <Logo src='./images/logosmall.PNG' alt='' />
+          <Logo src='./images/milkywaydotsmall.PNG' alt='' />
           <Button>REGISTER AS AN ARTIST</Button>
         </Nav>
 
@@ -25,7 +26,7 @@ export default function Header() {
             </Button>
           </div>
 
-          <Image src='./images/illustration-mockups.svg' alt='' />
+          <Image src='./images/milkywaypexels.jpeg' alt='' />
         </Flex>
       </Container>
     </StyledHeader>

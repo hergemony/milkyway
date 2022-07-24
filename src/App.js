@@ -8,9 +8,9 @@ import content from './content'
 
 const theme = {
   colors: {
-    header: '#ca00ff',
+    header: '#fff',
     body: '#000',
-    footer: '#8500ff',
+    footer: '#000',
   },
   mobile: '768px',
 }

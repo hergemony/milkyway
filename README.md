@@ -81,6 +81,10 @@ https://www.dafont.com/caviar-dreams.font
 
 https://github.com/bradtraversy/huddle_styled_components
 
+How to add Stripe payment:
+
+https://thushaltk.medium.com/how-to-add-stripe-payment-gateway-to-your-mern-project-82f34691dc57
+
 
 
 

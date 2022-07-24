@@ -1,4 +1,5 @@
 import { StyledCard } from './styles/Card.styled'
+import { Button } from './styles/Button.styled'
 
 export default function Card({ item: { id, title, body, image } }) {
   return (
@@ -9,7 +10,15 @@ export default function Card({ item: { id, title, body, image } }) {
       </div>
 
       <div>
-        <img src={`./images/${image}`} alt='' />
+        <img src={`./images/${image}`} alt='duckonthgrass.jpg' />
+
+        </div>
+
+        <div>
+
+        <Button bg='#ff0099' color='#fff'>
+              Buy it Now
+            </Button>
       </div>
     </StyledCard>
   )
