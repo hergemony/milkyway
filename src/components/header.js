@@ -8,7 +8,7 @@ export default function Header() {
     <StyledHeader>
       <Container>
         <Nav>
-          <Logo src='./images/logo.svg' alt='' />
+          <Logo src='./images/logo.PNG' alt='' />
           <Button>REGISTER AS AN ARTIST</Button>
         </Nav>
 
