@@ -44,4 +44,5 @@ STEPS
 ( npm i styled-components) = frontend - done
 4) background color black - done
 5) font ?
-6) stripe payment using cors
+6) backend - stripe payment using cors, uuid, stripe and nodemon npm packages. installed - done
+7) frontend -stripe payment
