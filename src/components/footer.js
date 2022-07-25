@@ -32,7 +32,7 @@ export default function Footer() {
           <SocialIcons />
         </Flex>
 
-        <p>&copy; 2022 MilkyWay Art | Hergemony Digital. All rights reserved</p>
+        <p>&copy; 2022 MilkyWay Art | Hergemony Digital | All rights reserved. </p>
       </Container>
     </StyledFooter>
   )

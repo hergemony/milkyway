@@ -6,6 +6,7 @@ import { Container } from './components/styles/Container.styled'
 import GlobalStyles from './components/styles/Global'
 import content from './content'
 
+
 const theme = {
   colors: {
     header: '#fff',
@@ -32,4 +33,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

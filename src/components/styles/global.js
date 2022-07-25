@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     background: ${({ theme }) => theme.colors.body};
-    color: hsl(192, 100%, 9%);
+    color: #fff;
     font-family: Lato, sans-serif;
     font-size: 1.15em;
     margin: 0;
