@@ -86,3 +86,6 @@ return (
 
 8) new page opening for registering users
 9) new page opening for buy it now
+10) Responsiveness
+11) heroku deployment
+12) more descriptive writing
