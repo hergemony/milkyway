@@ -1,15 +1,18 @@
-import { StyledHeader, Nav, Logo, Image } from './styles/Header.styled'
-import { Container } from './styles/Container.styled'
-import { Flex } from './styles/Flex.styled'
-import { Button } from './styles/Button.styled'
+import React, { useState } from "react";
+import { StyledHeader, Nav, Logo, Image } from "./styles/Header.styled";
+import { Container } from "./styles/Container.styled";
+import { Flex } from "./styles/Flex.styled";
+import { Button } from "./styles/Button.styled";
+import Register from "./Register";
 
 export default function Header() {
+  const [showModal, setShowModal] = useState(false);
   return (
     <StyledHeader>
       <Container>
         <Nav>
-          <Logo src='./images/logosmall.PNG' alt='' />
-          <Logo src='./images/milkywaydotsmall.PNG' alt='' />
+          <Logo src="./images/logosmall.PNG" alt="" />
+          <Logo src="./images/milkywaydotsmall.PNG" alt="" />
           <Button>REGISTER AS AN ARTIST</Button>
         </Nav>
 
@@ -18,18 +21,26 @@ export default function Header() {
             <h1>A billion stars in the making...</h1>
 
             <p>
-              Milky Way is an online art gallery where you can upload your art and find a prospective buyer.
-              
+              Milky Way is an online art gallery where you can upload your art
+              and find a prospective buyer.
             </p>
-
-            <Button bg='#ff0099' color='#fff'>
-              Get Started For Free
-            </Button>
+            {showModal === true ? (
+              <div>
+                <Register setShowModal={setShowModal}/>
+              </div>
+            ) : (
+              <Button
+              bg="#ff0099"
+              color="#fff"
+              onClick={() => setShowModal((prev) => !prev)}>
+                Get Started For Free
+              </Button>
+            )}
           </div>
 
-          <Image src='./images/galindo.jpg' alt='' />
+          <Image src="./images/galindo.jpg" alt="" />
         </Flex>
       </Container>
     </StyledHeader>
-  )
+  );
 }

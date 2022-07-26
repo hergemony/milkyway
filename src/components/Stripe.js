@@ -31,7 +31,7 @@ export default function Stripe() {
     <form onSubmit={handleSubmit}>
       <CardElement />
       <button type="submit" disabled={!stripe || !elements}>
-        Pay RENDERING ON HOME
+        CLICK TO PAY
       </button>
     </form>
     </StyledStripe>

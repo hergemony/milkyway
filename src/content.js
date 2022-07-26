@@ -8,7 +8,7 @@ const content = [
     {
       id: 2,
       title: 'ARTIST 2',
-      body: "Anonymous. Specialises in self-portraits. Graphite Pencil Artist. ",
+      body: "Anonymous. Specialises in self-portraits. Acrylic. ",
       image: 'artist2.jpg',
     },
     {

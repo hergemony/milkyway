@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const StyledStripe = styled.div`
+export const StyledRegister = styled.div`
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -12,6 +12,10 @@ export const StyledStripe = styled.div`
 
   img {
     width:  100%;
+  }
+
+  label {
+    font-color: black;
   }
 
   & > div {
