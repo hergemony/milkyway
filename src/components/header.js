@@ -19,6 +19,7 @@ export default function Header() {
 
             <p>
               Milky Way is an online art gallery where you can upload your art and find a prospective buyer.
+              
             </p>
 
             <Button bg='#ff0099' color='#fff'>
@@ -26,7 +27,7 @@ export default function Header() {
             </Button>
           </div>
 
-          <Image src='./images/milkywaypexels.jpeg' alt='' />
+          <Image src='./images/galindo.jpg' alt='' />
         </Flex>
       </Container>
     </StyledHeader>

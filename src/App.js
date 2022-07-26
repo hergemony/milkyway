@@ -7,6 +7,7 @@ import GlobalStyles from './components/styles/Global'
 import content from './content'
 
 
+
 const theme = {
   colors: {
     header: '#fff',
@@ -16,12 +17,16 @@ const theme = {
   mobile: '768px',
 }
 
+
 function App() {
+ 
+
   return (
     <ThemeProvider theme={theme}>
       <>
         <GlobalStyles />
         <Header />
+
         <Container>
           {content.map((item, index) => (
             <Card key={index} item={item} />

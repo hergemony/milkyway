@@ -72,7 +72,9 @@ https://www.springboard.com/blog/design/how-to-create-a-wireframe/
 
 https://elementor.com/blog/wireframe-website/
 
+https://medium.com/swlh/create-a-web-page-using-react-d5ad9d03fb1f
 
+https://www.freecodecamp.org/news/build-a-react-application-with-load-more-functionality-react-hooks/
 
 http://www.nymfont.com/2009/06/new-caviar-dreams-font.html
 
@@ -87,6 +89,17 @@ https://thushaltk.medium.com/how-to-add-stripe-payment-gateway-to-your-mern-proj
 
 How to add JWT Auth:
 https://youtu.be/enopDSs3DRw
+
+
+How to add React Modal:
+https://dev.to/tallangroberg/making-a-modal-with-react-styled-components-leveraging-dev-tools-2cjn
+
+https://github.com/TallanGroberg/modal-tutorial/blob/main/src/App.js
+
+https://codepen.io/PnkFluffyUnicorn/pen/RwPvKKG
+
+https://blog.logrocket.com/integrating-stripe-react-stripe-js/#:~:text=In%20React%20Stripe.js%2C%20Elements%20are%20available%20in%20the,other%20components%2C%20like%20the%20Elements%20provider%20and%20ElementsConsumer.
+
 
 
 
