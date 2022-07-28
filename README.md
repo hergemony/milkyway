@@ -129,6 +129,8 @@ https://www.colorhexa.com/color-gradient
 
 https://www.colorhexa.com/8500ff-to-ca00ff
 
+How to deploy to Heroku:
+https://devcenter.heroku.com/articles/git
 
 ## Questions
 Any questions, please email hergemony@gmail.com
