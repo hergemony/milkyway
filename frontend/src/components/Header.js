@@ -22,7 +22,7 @@ export default function Header() {
 
             <p>
               Milky Way is an online art gallery where you can upload your art
-              and find a prospective buyer.
+              and find a prospective buyer. Get started for free!
             </p>
             {showModal === true ? (
               <div>
@@ -33,7 +33,7 @@ export default function Header() {
               bg="#ff0099"
               color="#fff"
               onClick={() => setShowModal((prev) => !prev)}>
-                Get Started For Free
+                LOGIN
               </Button>
             )}
           </div>
