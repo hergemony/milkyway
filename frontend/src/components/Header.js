@@ -13,7 +13,7 @@ export default function Header() {
         <Nav>
           <Logo src="./images/logosmall.PNG" alt="" />
           <Logo src="./images/milkywaydotsmall.PNG" alt="" />
-          <Button>REGISTER AS AN ARTIST</Button>
+          <Button>LOGIN</Button>
         </Nav>
 
         <Flex>
@@ -33,7 +33,7 @@ export default function Header() {
               bg="#ff0099"
               color="#fff"
               onClick={() => setShowModal((prev) => !prev)}>
-                LOGIN
+                REGISTER AS AN ARTIST
               </Button>
             )}
           </div>
