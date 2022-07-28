@@ -15,7 +15,9 @@ export const StyledRegister = styled.div`
   }
 
   label {
-    font-color: black;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    
   }
 
   & > div {

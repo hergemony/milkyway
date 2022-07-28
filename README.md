@@ -25,10 +25,10 @@ Node JS: A javascript runtime built on Chrome’s V8 JS engine.
 # Tech Stack #
 - HTML
 - CSS
+- Npm packages (ie. Styled Components)
 - Javascript
 - MERN Stack (MongoDB, Express, REACT, Node)
 - REACT
-- Graph QL
 
 # Special Features #
 
@@ -87,6 +87,11 @@ How to add Stripe payment:
 
 https://thushaltk.medium.com/how-to-add-stripe-payment-gateway-to-your-mern-project-82f34691dc57
 
+https://www.npmjs.com/package/@stripe/react-stripe-js
+
+MERN tutorial:
+https://www.youtube.com/watch?v=-0exw-9YJBo
+
 How to add JWT Auth:
 https://youtu.be/enopDSs3DRw
 
@@ -101,10 +106,21 @@ https://codepen.io/PnkFluffyUnicorn/pen/RwPvKKG
 https://blog.logrocket.com/integrating-stripe-react-stripe-js/#:~:text=In%20React%20Stripe.js%2C%20Elements%20are%20available%20in%20the,other%20components%2C%20like%20the%20Elements%20provider%20and%20ElementsConsumer.
 
 
+How to add avatars:
+
+https://mui.com/material-ui/react-avatar/
+
+https://coreui.io/react/docs/components/avatar/
+
+https://reactnativeelements.com/docs/components/avatar
+
+https://multiavatar.com/
 
 
+How to gradient:
+https://www.colorhexa.com/color-gradient
 
-
+https://www.colorhexa.com/8500ff-to-ca00ff
 
 
 ## Questions

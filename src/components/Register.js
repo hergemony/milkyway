@@ -1,5 +1,5 @@
 import { StyledRegister } from "./styles/Register.styled";
-import { Button } from "./styles/Button.styled";
+//import { Button } from "./styles/Button.styled";
 import React from "react";
 
 export default function Register({setShowModal}) {
@@ -11,7 +11,7 @@ export default function Register({setShowModal}) {
   return (
     <StyledRegister>
       <form onSubmit={handleSubmit}>
-        <label for="email">Please enter your email:</label>
+        <label for="email"> Please enter your email: </label>
         <input type='email' id="email" name="email"/>
         <button 
         type="submit">

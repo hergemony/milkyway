@@ -19,14 +19,15 @@ export default function Footer() {
           </ul>
           <ul>
             <li>About Us</li>
-            <li>What We Do</li>
+            <li>Location</li>
             <li>FAQ</li>
           </ul>
 
           <ul>
             <li>Career</li>
             <li>Blog</li>
-            <li>Contact Us</li>
+            <li>Contact Us<a href='https://linkedin.com'></a></li>
+
           </ul>
 
           <SocialIcons />

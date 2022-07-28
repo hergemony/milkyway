@@ -60,4 +60,9 @@ STEPS
 9) new page opening for buy it now
 10) Responsiveness
 11) heroku deployment
-12) more descriptive writing
+12) more descriptive writing in landing page
+13) About us
+14) avatars
+15) CRUD of artwork
+16) Login 
+17) Register

@@ -17,6 +17,7 @@ export default function Card({ item: { id, title, body, image } }) {
 
       <div>
         <img src={`./images/${image}`} alt="duckonthgrass.jpg" />
+        
       </div>
 
       <div>
