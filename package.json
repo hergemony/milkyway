@@ -7,7 +7,7 @@
     "start": "node backend/server.js",
     "build": "cd frontend && npm run build",
     "develop": "concurrently \"cd backend && npm run watch\" \"cd frontend && npm run start\"",
-    "install": "cd backend && npm i && cd frontend && npm i"
+    "install": "cd backend && npm i && cd ../frontend && npm i"
   },
   "repository": {
     "type": "git",
