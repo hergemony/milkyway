@@ -9,7 +9,7 @@ export default function Footer() {
       <Container>
         <img src='./images/logosmall.PNG' alt='' />
 
-        <Flex>
+     
           <ul>
             <li>
               A billion stars in the making... Come join us at the Milky Way

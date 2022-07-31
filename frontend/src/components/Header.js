@@ -11,8 +11,8 @@ export default function Header() {
     <StyledHeader>
       <Container>
         <Nav>
-          <Logo src="./images/logosmall.PNG" alt="" />
-          <Logo src="./images/milkywaydotsmall.PNG" alt="" />
+          <Logo src="./images/logosmall.png" alt="" />
+          <Logo src="./images/milkywaydotsmall.png" alt="" />
           <Button>LOGIN</Button>
         </Nav>
 
@@ -33,7 +33,7 @@ export default function Header() {
               bg="#ff0099"
               color="#fff"
               onClick={() => setShowModal((prev) => !prev)}>
-                REGISTER AS AN ARTIST
+                REGISTER
               </Button>
             )}
           </div>
