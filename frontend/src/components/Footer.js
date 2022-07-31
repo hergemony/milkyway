@@ -14,7 +14,7 @@ export default function Footer() {
             <li>
               A billion stars in the making... Come join us at the Milky Way
             </li>
-            <li>+1-543-123-4567</li>
+            <li>Ph: 02 9557 1506</li>
             <li>info@milkywayart.com</li>
           </ul>
           <ul>
