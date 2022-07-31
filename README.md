@@ -96,11 +96,21 @@ https://thushaltk.medium.com/how-to-add-stripe-payment-gateway-to-your-mern-proj
 
 https://www.npmjs.com/package/@stripe/react-stripe-js
 
-MERN tutorial:
+
+1) MERN STACK tutorial:
 https://www.youtube.com/watch?v=-0exw-9YJBo
 
+2)
 How to add JWT Auth:
+backend-
 https://youtu.be/enopDSs3DRw
+
+3)
+frontend-
+https://www.youtube.com/watch?v=mvfsC66xqj0&t=408s
+
+4) Redux
+https://www.youtube.com/watch?v=UXjMo25Nnvc
 
 
 How to add React Modal:

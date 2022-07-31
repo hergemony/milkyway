@@ -1,21 +1,21 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-import goalService from './goalService'
+import ArtService from './ArtService'
 
 const initialState = {
-  goals: [],
+  Arts: [],
   isError: false,
   isSuccess: false,
   isLoading: false,
   message: '',
 }
 
-// Create new goal
-export const createGoal = createAsyncThunk(
-  'goals/create',
-  async (goalData, thunkAPI) => {
+// Create new Art
+export const createArt = createAsyncThunk(
+  'Arts/create',
+  async (ArtData, thunkAPI) => {
     try {
       const token = thunkAPI.getState().auth.user.token
-      return await goalService.createGoal(goalData, token)
+      return await ArtService.createArt(ArtData, token)
     } catch (error) {
       const message =
         (error.response &&
@@ -28,13 +28,13 @@ export const createGoal = createAsyncThunk(
   }
 )
 
-// Get user goals
-export const getGoals = createAsyncThunk(
-  'goals/getAll',
+// Get user Arts
+export const getArts = createAsyncThunk(
+  'Arts/getAll',
   async (_, thunkAPI) => {
     try {
       const token = thunkAPI.getState().auth.user.token
-      return await goalService.getGoals(token)
+      return await ArtService.getArts(token)
     } catch (error) {
       const message =
         (error.response &&
@@ -47,13 +47,13 @@ export const getGoals = createAsyncThunk(
   }
 )
 
-// Delete user goal
-export const deleteGoal = createAsyncThunk(
-  'goals/delete',
+// Delete user Art
+export const deleteArt = createAsyncThunk(
+  'Arts/delete',
   async (id, thunkAPI) => {
     try {
       const token = thunkAPI.getState().auth.user.token
-      return await goalService.deleteGoal(id, token)
+      return await ArtService.deleteArt(id, token)
     } catch (error) {
       const message =
         (error.response &&
@@ -66,51 +66,51 @@ export const deleteGoal = createAsyncThunk(
   }
 )
 
-export const goalSlice = createSlice({
-  name: 'goal',
+export const ArtSlice = createSlice({
+  name: 'Art',
   initialState,
   reducers: {
     reset: (state) => initialState,
   },
   extraReducers: (builder) => {
     builder
-      .addCase(createGoal.pending, (state) => {
+      .addCase(createArt.pending, (state) => {
         state.isLoading = true
       })
-      .addCase(createGoal.fulfilled, (state, action) => {
+      .addCase(createArt.fulfilled, (state, action) => {
         state.isLoading = false
         state.isSuccess = true
-        state.goals.push(action.payload)
+        state.Arts.push(action.payload)
       })
-      .addCase(createGoal.rejected, (state, action) => {
+      .addCase(createArt.rejected, (state, action) => {
         state.isLoading = false
         state.isError = true
         state.message = action.payload
       })
-      .addCase(getGoals.pending, (state) => {
+      .addCase(getArts.pending, (state) => {
         state.isLoading = true
       })
-      .addCase(getGoals.fulfilled, (state, action) => {
+      .addCase(getArts.fulfilled, (state, action) => {
         state.isLoading = false
         state.isSuccess = true
-        state.goals = action.payload
+        state.Arts = action.payload
       })
-      .addCase(getGoals.rejected, (state, action) => {
+      .addCase(getArts.rejected, (state, action) => {
         state.isLoading = false
         state.isError = true
         state.message = action.payload
       })
-      .addCase(deleteGoal.pending, (state) => {
+      .addCase(deleteArt.pending, (state) => {
         state.isLoading = true
       })
-      .addCase(deleteGoal.fulfilled, (state, action) => {
+      .addCase(deleteArt.fulfilled, (state, action) => {
         state.isLoading = false
         state.isSuccess = true
-        state.goals = state.goals.filter(
-          (goal) => goal._id !== action.payload.id
+        state.Arts = state.Arts.filter(
+          (Art) => Art._id !== action.payload.id
         )
       })
-      .addCase(deleteGoal.rejected, (state, action) => {
+      .addCase(deleteArt.rejected, (state, action) => {
         state.isLoading = false
         state.isError = true
         state.message = action.payload
@@ -118,5 +118,5 @@ export const goalSlice = createSlice({
   },
 })
 
-export const { reset } = goalSlice.actions
-export default goalSlice.reducer
+export const { reset } = ArtSlice.actions
+export default ArtSlice.reducer
