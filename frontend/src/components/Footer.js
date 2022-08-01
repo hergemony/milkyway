@@ -15,6 +15,9 @@ export default function Footer() {
               A billion stars in the making... Come join us at the Milky Way
             </li>
             <li>Ph: 02 9557 1506</li>
+            <li>Come visit us!
+              335 King Street, NEWTOWN, NSW, 2042
+AUSTRALIA.</li> 
             <li>info@milkywayart.com</li>
           </ul>
           <ul>

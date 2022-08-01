@@ -6,8 +6,7 @@ import { Container } from './components/styles/Container.styled'
 import GlobalStyles from './components/styles/Global'
 import content from './content'
 
-
-
+// create react router to connect RegisterUser page to button
 const theme = {
   colors: {
     header: '#fff',
