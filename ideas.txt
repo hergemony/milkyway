@@ -15,10 +15,6 @@ Font:
 
 
 * must include CRUD
-create = create new art post
-read = to read resources in a REST environment using the GET method
-update = update artpiece for sale
-delete = delete the post
 
 
 
@@ -50,12 +46,7 @@ STEPS
 4) background color black - done
 5) font ?
 6) backend - stripe payment using cors, uuid, stripe and nodemon npm packages. installed - done
-
-
-
 7) frontend -stripe payment
-
-
 8) new page opening for registering users
 9) new page opening for buy it now
 10) Responsiveness

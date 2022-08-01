@@ -5,9 +5,9 @@ import Card from './components/Card'
 import { Container } from './components/styles/Container.styled'
 import GlobalStyles from './components/styles/Global'
 import content from './content'
+import RegisterUser from './pages/RegisterUser'
 
-
-
+// create react router to connect RegisterUser page to button
 const theme = {
   colors: {
     header: '#fff',
@@ -27,11 +27,13 @@ function App() {
         <GlobalStyles />
         <Header />
 
-        <Container>
+        {/* <Container>
           {content.map((item, index) => (
             <Card key={index} item={item} />
           ))}
-        </Container>
+        </Container> */}
+        {/* <Dashboard /> */}
+        <RegisterUser />
         <Footer />
       </>
     </ThemeProvider>

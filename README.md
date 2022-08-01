@@ -96,6 +96,10 @@ https://thushaltk.medium.com/how-to-add-stripe-payment-gateway-to-your-mern-proj
 
 https://www.npmjs.com/package/@stripe/react-stripe-js
 
+https://stripe.com/docs/keys
+https://stripe.com/docs/stripe-js/react
+
+
 
 1) MERN STACK tutorial:
 https://www.youtube.com/watch?v=-0exw-9YJBo
@@ -122,6 +126,9 @@ https://codepen.io/PnkFluffyUnicorn/pen/RwPvKKG
 
 https://blog.logrocket.com/integrating-stripe-react-stripe-js/#:~:text=In%20React%20Stripe.js%2C%20Elements%20are%20available%20in%20the,other%20components%2C%20like%20the%20Elements%20provider%20and%20ElementsConsumer.
 
+
+How to add images to MongoDb
+https://www.bezkoder.com/node-js-upload-store-images-mongodb/#:~:text=uploading%20Files%2FImages%20to%20MongoDB%20getting%20list%20of%20Files%E2%80%99,be%20stored%20in%202%20collections%3A%20photo.files%20and%20photos.chunks.
 
 How to add avatars:
 
