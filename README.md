@@ -21,12 +21,15 @@ Express JS: A structured base designed to develop web applications and APIs.
 React JS: A Javascript Front-end library for building user interfaces. Maintained by Facebook.
 Node JS: A javascript runtime built on Chrome’s V8 JS engine. 
 
+Milky Way is a digital art gallery where users can upload their original art and find prospective buyers. It is a one page MERN Stack Application.
+
 # Tech Stack #
 - HTML
 - CSS
 - Npm packages (ie. Styled Components)
 - Javascript
 - MERN Stack (MongoDB, Express, REACT, Node)
+- JWT Auth
 - REACT
 
 ## Installation
@@ -40,9 +43,9 @@ https://milkywayart.herokuapp.com/
 
 ## Screenshot
 
-![alt text](https://github.com/hergemony/)
+![alt text](https://github.com/hergemony/milkyway/blob/main/frontend/public/images/Screen%20Shot%202022-08-02%20at%2011.16.37%20am.png?raw=true)
 
-![alt text](https://github.com/hergemony/?raw=true)
+![alt text](https://github.com/hergemony/milkyway/blob/main/frontend/public/images/Screen%20Shot%202022-08-02%20at%2011.17.15%20am.png?raw=true)
 
 
 
