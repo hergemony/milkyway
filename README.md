@@ -6,7 +6,6 @@
 * [Description](##Description)
 * [Tech Stack](#TechStack)
 * [Installation](##Installation)
-* [Usage](##Usage)
 * [Deployed Link](##DeployedLink)
 * [Screenshot](#Screenshot)
 * [Credits](#Credits)
@@ -30,13 +29,9 @@ Node JS: A javascript runtime built on Chrome’s V8 JS engine.
 - MERN Stack (MongoDB, Express, REACT, Node)
 - REACT
 
-# Special Features #
-
-
 ## Installation
 Git clone the repository into your terminal. 
 
-## Usage
 
 ## Deployed Link
 https://milkywayart.herokuapp.com/
@@ -49,8 +44,7 @@ https://milkywayart.herokuapp.com/
 
 ![alt text](https://github.com/hergemony/?raw=true)
 
-## Video
-[![CLICK TO VIEW WALKTHROUGH VIDEO](https://img.youtube.com/)](https://youtu.be/
+
 
 ## Credits
 https://en.wikipedia.org/wiki/Wheatbelt_(Western_Australia)
@@ -58,8 +52,6 @@ https://en.wikipedia.org/wiki/Wheatbelt_(Western_Australia)
 https://stackoverflow.com
 
 https://w3schools.com
-
-https://www.nathan-lam.com/blog/embed-video-in-github-readme.html
 
 https://altcampus.school/posts/10-full-stack-beginner-project-ideas-for-learning-MERN-stack
 
